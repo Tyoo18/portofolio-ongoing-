@@ -20,7 +20,7 @@
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     position: absolute;
     top: 0;
   }
@@ -157,4 +157,5 @@
     left: 0;
   }
 }
+
 
