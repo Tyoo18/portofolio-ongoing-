@@ -1,162 +1,159 @@
 @media (max-width: 100vh) {
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(37, 36, 36);
-    width: 100%;
-    height: 100vh;
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(37, 36, 36);
+        width: 100%;
+        height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  .navbar {
-    width: 100%;
-    height: 10%;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    gap: 1em;
-    position: absolute;
-    top: 0;
-  }
-  label {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    position: absolute;
-    left: 1em;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      .navbar {
+        width: 100%;
+        height: 10%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        gap: 0em;
+        position: absolute;
+        top: 0;
+      }
+      label {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        position: absolute;
+        left: 1em;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
 
-    padding: 0.5em;
-    border-radius: 10px;
-  }
-  a:hover {
-    background-color: rgb(36, 34, 34);
-  }
-  .pic-cont {
-    width: 350px;
-    height: 350px;
-    position: relative;
-  }
-  .box {
-    width: 350px;
-    height: 350px;
-    background-color: white;
-    background-image: url(my_pic.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    clip-path: path(
-      "M 7,35 L 84,35 A 7,7 0,0,0 91,28 L 91,7 A 7,7 0,0,1 98,0 L 301,0 A 7,7 0,0,1 308,7 L 308,98 A 7,7 0,0,0 315,105 L 343,105 A 7,7 0,0,1 350,112 L 350,308 A 7,7 0,0,1 343,315 L 231,315 A 7,7 0,0,0 224,322 L 224,343 A 7,7 0,0,1 217,350 L 49,350 A 7,7 0,0,1 42,343 L 42,315 A 7,7 0,0,0 35,308 L 7,308 A 7,7 0,0,1 0,301 L 0,42 A 7,7 0,0,1 7,35 Z"
-    );
-  }
-  .txt {
-    width: 86px;
-    height: 30px;
-    border-radius: 7px 7px 4px 7px;
-    background-color: black;
+        padding: 0.5em;
+        border-radius: 10px;
+      }
+      a:hover {
+        background-color: rgb(36, 34, 34);
+      }
+      .pic-cont {
+        width: 350px;
+        height: 350px;
+        position: relative;
+      }
+      .box {
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        background-image: url(my_pic.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        clip-path: path(
+          "M 7,35 L 84,35 A 7,7 0,0,0 91,28 L 91,7 A 7,7 0,0,1 98,0 L 301,0 A 7,7 0,0,1 308,7 L 308,98 A 7,7 0,0,0 315,105 L 343,105 A 7,7 0,0,1 350,112 L 350,308 A 7,7 0,0,1 343,315 L 231,315 A 7,7 0,0,0 224,322 L 224,343 A 7,7 0,0,1 217,350 L 49,350 A 7,7 0,0,1 42,343 L 42,315 A 7,7 0,0,0 35,308 L 7,308 A 7,7 0,0,1 0,301 L 0,42 A 7,7 0,0,1 7,35 Z"
+        );
+      }
+      .txt {
+        width: 86px;
+        height: 30px;
+        border-radius: 7px 7px 4px 7px;
+        background-color: black;
 
-    font-size: 1em;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
 
-    text-align: center;
-    align-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-}
-/* HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
-@media (min-width: 100vh) {
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(37, 36, 36);
-    width: 100%;
-    height: 1080px;
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+    /* HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
+    @media (min-width: 100vh) {
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(37, 36, 36);
+        width: 100%;
+        height: 1080px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  .navbar {
-    width: 100%;
-    height: 10%;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    gap: 2em;
-    position: absolute;
-    top: 0;
-  }
-  label {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    position: absolute;
-    left: 1em;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      .navbar {
+        width: 100%;
+        height: 10%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        gap: 2em;
+        position: absolute;
+        top: 0;
+      }
+      label {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        position: absolute;
+        left: 1em;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
 
-    padding: 0.5em;
-    border-radius: 10px;
-  }
-  a:hover {
-    background-color: rgb(36, 34, 34);
-  }
-  .box {
-    width: 500px;
-    height: 500px;
-    background-color: white;
-    background-image: url(my_pic.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    clip-path: path(
-      "M 10,50 L 120,50 A 10,10 0,0,0 130,40 L 130,10 A 10,10 0,0,1 140,0 L 430,0 A 10,10 0,0,1 440,10 L 440,140 A 10,10 0,0,0 450,150 L 490,150 A 10,10 0,0,1 500,160 L 500,440 A 10,10 0,0,1 490,450 L 330,450 A 10,10 0,0,0 320,460 L 320,490 A 10,10 0,0,1 310,500 L 70,500 A 10,10 0,0,1 60,490 L 60,450 A 10,10 0,0,0 50,440 L 10,440 A 10,10 0,0,1 0,430 L 0,60 A 10,10 0,0,1 10,50 Z"
-    );
-  }
-  .pic-cont {
-    width: 500px;
-    height: 500px;
-    position: relative;
-  }
-  .txt {
-    width: 124px;
-    height: 44px;
-    border-radius: 10px 10px 6px 10px;
-    background-color: black;
+        padding: 0.5em;
+        border-radius: 10px;
+      }
+      a:hover {
+        background-color: rgb(36, 34, 34);
+      }
+      .box {
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        background-image: url(my_pic.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        clip-path: path(
+          "M 10,50 L 120,50 A 10,10 0,0,0 130,40 L 130,10 A 10,10 0,0,1 140,0 L 430,0 A 10,10 0,0,1 440,10 L 440,140 A 10,10 0,0,0 450,150 L 490,150 A 10,10 0,0,1 500,160 L 500,440 A 10,10 0,0,1 490,450 L 330,450 A 10,10 0,0,0 320,460 L 320,490 A 10,10 0,0,1 310,500 L 70,500 A 10,10 0,0,1 60,490 L 60,450 A 10,10 0,0,0 50,440 L 10,440 A 10,10 0,0,1 0,430 L 0,60 A 10,10 0,0,1 10,50 Z"
+        );
+      }
+      .pic-cont {
+        width: 500px;
+        height: 500px;
+        position: relative;
+      }
+      .txt {
+        width: 124px;
+        height: 44px;
+        border-radius: 10px 10px 6px 10px;
+        background-color: black;
 
-    font-size: 1.8em;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.8em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
 
-    text-align: center;
-    align-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-}
-
-
-
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
